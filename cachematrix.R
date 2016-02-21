@@ -76,7 +76,7 @@ cacheSolve <- function(y, ...)
     return(n)
   }
   
-  # if no the cache is empty, calculate the inverse matrix and store the result in the cache
+  # if the cache is empty, calculate the inverse matrix and store the result in the cache
   # get the matrix
   values <- y$get()
   
